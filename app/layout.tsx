@@ -6,9 +6,10 @@ import Footer from "@/components/Footer";
 import Analytics from "@/components/Analytics";
 
 const inter = Inter({
-  variable: "--font-inter",
   subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800"],
   display: "swap",
+  variable: "--font-inter",
 });
 
 export const metadata: Metadata = {
@@ -123,7 +124,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#0ea5e9" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
-      <body className="font-sans antialiased bg-white text-neutral-900">
+      <body className={`${inter.className} font-sans antialiased bg-white text-neutral-900`}>
         <div className="min-h-screen flex flex-col">
           <Navigation />
           <main className="flex-grow">
