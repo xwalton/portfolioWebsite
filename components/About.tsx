@@ -20,10 +20,20 @@ const About: React.FC = () => {
           <div className="space-y-6 sm:space-y-8">
             <div className="space-y-4 sm:space-y-6">
               <p className="text-lg sm:text-xl text-neutral-700 leading-relaxed">
-                I&apos;m a passionate Product Manager and Consultant with over 8 years of experience 
-                building products that make a real difference in people&apos;s lives. My journey 
-                began in analytics and consulting, where I learned to translate complex data into 
-                actionable insights.
+                I began in rooms lit by soft boxes and the hum of studio lights, framing objects
+                until they felt alive. At Quad Graphics, I worked alongside art directors and 
+                stylists, learning how a product can speak without words if every line and
+                shadow is deliberate. At Portrait Innovations, it was people, not products. 
+                Parents shifting a child&apos;s hand just so, strangers easing into smiles they
+                did not know they had.
+                Those early days shaped how I see things. The way design, light, and intention 
+                can change what the world notices. Now, at Adobe, I work with teams who build the 
+                systems behind that magic. I help brands bring order to vast collections of content, 
+                guiding the quiet processes that make it possible for creativity to scale.
+                I am drawn to where technology meets imagination. AI, in particular, feels like the 
+                next palette. It can free more people to make the world sharper, softer, stranger, 
+                more beautiful. My work now is one step in that direction, learning how to connect 
+                ideas, people, and tools so what they create can reach farther than before.
               </p>
               
               <p className="text-lg sm:text-xl text-neutral-700 leading-relaxed">
